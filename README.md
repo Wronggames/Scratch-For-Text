@@ -34,13 +34,11 @@ either takes the string or number value at variable--value and creates a variabl
 
 
 ```var>>set "Variable--Name" "Variable--Value"```
-
+takes the string/number at variable value and sets the variable called variable name to the value.
 
 
 # variable calling
 
 just use the variables name instead of a string
 
-takes the string/number at variable value and sets the variable called variable name to the value.
 
-var>>new "variable--name"
