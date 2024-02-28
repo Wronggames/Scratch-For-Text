@@ -14,14 +14,18 @@ strings can not contain spaces instead use -- in strings that need them and it w
 
 # Commands:
 say "hello" spriteid
+
 the sprite who has the id of sprite id says the string provided
 goto x y spriteid
+
 the sprite that has the id sprite id will go to the provided coordinates
 
 hide spriteid
+
 the sprite that has the id sprite id will hide itself from the stage
 
 show spriteid
+
 the sprite that has the id sprite id will show itself in the stage
 
 var>>new "variable--name" "variable--value"
