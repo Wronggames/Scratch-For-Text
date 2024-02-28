@@ -13,27 +13,33 @@ strings can not contain spaces instead use -- in strings that need them and it w
 
 
 # Commands:
-say "hello" spriteid
+```say "hello" spriteid```
 
 the sprite who has the id of sprite id says the string provided
-goto x y spriteid
+```goto x y spriteid```
 
 the sprite that has the id sprite id will go to the provided coordinates
 
-hide spriteid
+```hide spriteid```
 
 the sprite that has the id sprite id will hide itself from the stage
 
-show spriteid
+```show spriteid```
 
 the sprite that has the id sprite id will show itself in the stage
 
-var>>new "variable--name" "variable--value"
+```var>>new "variable--name" "variable--value"```
 
 either takes the string or number value at variable--value and creates a variable named variable--name thats set to the provided value
 
 
-var>>set "Variable--Name" "Variable--Value"
+```var>>set "Variable--Name" "Variable--Value"```
+
+
+
+# variable calling
+
+just use the variables name instead of a string
 
 takes the string/number at variable value and sets the variable called variable name to the value.
 
